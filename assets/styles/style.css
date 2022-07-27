@@ -1,0 +1,9 @@
+body {
+    background-color: #f4f1f7;
+}
+
+main div span {
+    color: indigo;
+    font-weight: bold;
+    font-size: 20px;
+}
