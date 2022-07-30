@@ -7,3 +7,111 @@ main div span {
     font-weight: bold;
     font-size: 20px;
 }
+
+footer {
+    padding: 150px 100px;
+    max-width: 100%;
+}
+
+.top-wrapper {
+    display: block;
+    width: 100%;
+}
+
+.section {
+    float: left;
+    width: 30%;
+    padding-right: 20px;
+}
+
+.section .logo {
+    color: red;
+    font-size: 12px;
+}
+
+.section .left-text {
+    line-height: 30px;
+    text-align: justify;
+    opacity: 0.5;
+}
+
+.section p {
+    font-size: 14px;
+    opacity: 0.5;
+}
+
+.section h3 {
+    margin-bottom: 36px;
+    opacity: 1;
+}
+
+.section .icon {
+    margin-right: 10px;
+    line-height: 12px;
+    opacity: 0.5;
+}
+
+.section input {
+    border: none;
+    border-bottom: 2px solid black;
+    width: 90%;
+    opacity: 0.5;
+}
+
+.section input:focus {
+    outline: none;
+}
+
+.section .send {
+    color: red;
+}
+
+.section span {
+    margin-left: 5px;
+}
+
+.section span:active {
+    color: #000;
+}
+
+.bottom-wrapper {
+    display: block;
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.bottom-wrapper .left {
+    float: left;
+    display: inline;
+}
+
+.bottom-wrapper .right {
+    float: right;
+    display: inline;
+    padding-right: 7%;
+}
+
+.bottom-wrapper .left .fa-stack {
+    margin-right: 10px;
+    font-size: 18px;
+    color: black;
+}
+
+.bottom-wrapper .left a {
+    text-decoration: none;
+}
+
+.bottom-wrapper .left a:hover {
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.20);
+}
+
+.right span {
+    color: red;
+    font-weight: bolder;
+}
+
+footer a {
+    text-decoration: none;
+}
