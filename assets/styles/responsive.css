@@ -1,32 +1,73 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
-    .section {
-      width: 50%;
-      margin-bottom: 50px;
-    }
+  .section {
+    width: 50%;
+    margin-bottom: 50px;
   }
-  
-  /* Untuk Smartphone */
-  @media all and (max-width: 670px) {
-    .section {
-      width: 100%;
-    }
-    
-    .bottom-wrapper {
-      width: 100%;
-      text-align: center;
-      margin: 0 auto;
-      display: block;
-      margin-bottom: 50px;
-    }
 
-    .bottom-wrapper .left {
-        display:block;
-        width: 100%;
-        margin: 0 auto;
-    }
-
-    .footer {
-        margin: 0 auto;
-    }
+  .popular-genres .book {
+    width: 120px;
   }
+}
+
+@media all and (max-width: 720px) {
+  .popular-genres .header {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .popular-genres .header .title {
+    flex-direction: row;
+  }
+
+  .popular-genres .header .title span {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  .popular-genres .books {
+    grid-template-columns: auto auto auto;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .section {
+    width: 100%;
+  }
+
+  .bottom-wrapper {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 50px;
+  }
+
+  .bottom-wrapper .left {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .footer {
+    margin: 0 auto;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .popular-genres .header ul {
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  .popular-genres .books {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .popular-genres .books {
+    grid-template-columns: auto;
+  }
+}
